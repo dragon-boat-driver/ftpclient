@@ -14,11 +14,8 @@ import javafx.scene.control.TreeTableColumn;
 import javafx.scene.control.TreeTableView;
 
 public class MainController implements Initializable {
-	//
-	
-	
-	
-	
+	//菜单设置
+		
 	//连接设置
 	@FXML
 	private TextField RemoteUrl;
@@ -29,7 +26,7 @@ public class MainController implements Initializable {
 	@FXML
 	private TextField port;
 	@FXML
-	private ChoiceBox connectMethod;
+	private ChoiceBox<?> connectMethod;
 	
 	//显示当前目录
 	@FXML
@@ -60,6 +57,8 @@ public class MainController implements Initializable {
 //	private TreeTableColumn<S, T> remoteFileType;
 //	@FXML
 //	private TreeTableColumn<S, T> remoteFileChangeTime; 
+//	@FXML
+//	private TreeTableColumn<S, T> remoteFileJurisdiction;
 	
 //	//显示传输队列
 //	@FXML

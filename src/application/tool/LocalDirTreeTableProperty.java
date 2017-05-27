@@ -7,6 +7,15 @@ public final class LocalDirTreeTableProperty {
 	private final SimpleStringProperty localFileSize = new SimpleStringProperty();
 	private final SimpleStringProperty localFileType = new SimpleStringProperty();
 	private final SimpleStringProperty localFileChangeTime = new SimpleStringProperty();
+	
+	public LocalDirTreeTableProperty(String localFileName,String localFileSize,String localFileType,String localFileChangeTime){
+		setLocalFileName(localFileName);
+		setLocalFileSize(localFileSize);
+		setLocalFileType(localFileType);
+		setLocalFileChangeTime(localFileChangeTime);
+	}
+	
+	//set
 	public void setLocalFileName(String localFileName) {
 		this.localFileName.set(localFileName);
 	}
@@ -19,6 +28,8 @@ public final class LocalDirTreeTableProperty {
 	public void setLocalFileChangeTime(String localFileChangeTime) {
 		 this.localFileChangeTime.set(localFileChangeTime);
 	}
+	
+	//get
 	public String getLocalFileName(){
 		return this.localFileName.get();
 	}
@@ -32,4 +43,17 @@ public final class LocalDirTreeTableProperty {
 		return this.localFileChangeTime.get();
 	}
 	
+	//·µ»ØSimpleStringProperty
+	public SimpleStringProperty  getLocalFileNameProperty(){
+		return localFileName;
+	}
+	public SimpleStringProperty  getLocalFileSizeProperty(){
+		return localFileSize;
+	}
+	public SimpleStringProperty  getLocalFileTypeProperty(){
+		return localFileType;
+	}
+	public SimpleStringProperty  getLocalFileChangeTimeProperty(){
+		return localFileChangeTime;
+	}
 }

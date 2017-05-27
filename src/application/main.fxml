@@ -28,10 +28,10 @@
                   <Menu mnemonicParsing="false" text="文件覆盖选项">
                      <items>
                         <MenuItem mnemonicParsing="false" text="询问" />
+                        <MenuItem mnemonicParsing="false" text="跳过" />
                         <MenuItem mnemonicParsing="false" text="直接覆盖" />
                      </items>
                   </Menu>
-                  <MenuItem mnemonicParsing="false" text="跳过" />
                   <Menu mnemonicParsing="false" text="传输类型">
                      <items>
                         <MenuItem mnemonicParsing="false" text="文本" />
@@ -105,9 +105,6 @@
                               <TreeTableColumn minWidth="70.0" prefWidth="70.0" text="类型" />
                               <TreeTableColumn minWidth="150.0" prefWidth="150.0" text="修改时间" />
                            </columns>
-                           <padding>
-                              <Insets top="5.0" />
-                           </padding>
                         </TreeTableView>
                      </children>
                      <padding>
@@ -136,9 +133,6 @@
                               <TreeTableColumn minWidth="85.0" prefWidth="85.0" text="修改时间" />
                               <TreeTableColumn minWidth="70.0" prefWidth="70.0" text="权限" />
                            </columns>
-                           <padding>
-                              <Insets top="5.0" />
-                           </padding>
                         </TreeTableView>
                      </children>
                      <padding>
