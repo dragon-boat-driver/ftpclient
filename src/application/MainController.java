@@ -38,8 +38,8 @@ public class MainController implements Initializable {
 	private TextField remoteCurentDir;
 	
 	//±¾µØÄ¿Â¼Ê÷
-	@FXML
-	private TreeTableView<LocalDirTreeTableProperty> localDir;
+//	@FXML
+//	private TreeTableView<LocalDirTreeTableProperty> localDir;
 //	@FXML
 //	private TreeTableColumn<S, T> localFileName;
 //	@FXML
