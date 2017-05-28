@@ -66,10 +66,10 @@ public class SiteRecord {
 	public void setIsAnonimity(Boolean isAnonimity) {
 		this.isAnonimity = isAnonimity;
 	}
-	public Boolean getisSavePassword() {
+	public Boolean getIsSavePassword() {
 		return isSavePassword;
 	}
-	public void setisSavePassword(Boolean isSavePassword) {
+	public void setIsSavePassword(Boolean isSavePassword) {
 		this.isSavePassword = isSavePassword;
 	}
 	public String getUserName() {
